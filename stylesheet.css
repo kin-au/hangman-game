@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(63, 0, 0);
+    color: rgb(200, 200, 200);
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+
+.area {
+    margin: 10px;
+}
+
+button {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(200, 200, 200);
+}
+
+#answer {
+    border-radius: 5px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(200px));
+    grid-template-rows: repeat(5, 20%);
+    grid-gap: 20px;
+}
+
+@media (max-width: 600px) {
+    .gridContainer {
+        display: block;
+    }
+}
+
+#imageArea {
+    grid-column: 1 / 2;
+    grid-row: 1 / 6;
+}
+
+#image {
+    width: 100%;
+    min-width: 200px;
+}
+
+#wordArea {
+    grid-column: 2 / 6;
+    grid-row: 1 / 2;
+}
+
+#guessArea {
+    grid-column: 2 / 6;
+    grid-row: 2 / 4;
+}
+
+.letters {
+    display: inline-block;
+    width: 36px;
+    align-self: end;
+}
+
+.letterButton {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#messageArea {
+    grid-column: 2 / 6;
+    grid-row: 4 / 5;
+}
+
+#message {
+    align-self: start;
+}
+
+
