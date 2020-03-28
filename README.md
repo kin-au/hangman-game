@@ -15,5 +15,6 @@ Play the game here: https://kin-au.github.io/hangman-game
 - Once game has begun, it must be reset before a new game can be started
 - Guess letters by clicking on the letter buttons
 - The player is given visual indication whether the guess is right or wrong
+- Letters that the player has already guessed are subsequently disabled
 - When all the guesses have been used up, the game is locked and must be reset
 - The word is revealed if the player loses the game
