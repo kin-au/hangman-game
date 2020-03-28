@@ -4,10 +4,13 @@
 
 Built as a personal project in summer 2019 whilst self-learning web development, using vanilla HTML, CSS and JavaScript
 
+Play the game here: https://kin-au.github.io/hangman-game
+
 ### Features:
 
 - Game loads with certain features and buttons disabled
 - Either enter your own word for a friend to guess
+- The game does not allow the player to submit an empty form field
 - Or let the game generate a random word (hard mode!)
 - Once game has begun, it must be reset before a new game can be started
 - Guess letters by clicking on the letter buttons
